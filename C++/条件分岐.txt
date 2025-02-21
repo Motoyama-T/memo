@@ -1,39 +1,39 @@
-¡if•¶
+â– ifæ–‡
 #include<stdio.h>
 int main(void) {
 	int x;
-	printf("”š‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢");
+	printf("æ•°å­—ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„");
 	scanf("%d",&x);
 	if (x >= 80) {
-		// ˆ—1
+		// å‡¦ç†1
 	}
 	else if (x >= 60) {
-		// ˆ—2
+		// å‡¦ç†2
 	}
 	else {
-		// ‚»‚êˆÈŠO‚Ìˆ—
+		// ãã‚Œä»¥å¤–ã®å‡¦ç†
 	}
 	return 0;
 }
 
-¡switch•¶
+â– switchæ–‡
 #include<stdio.h>
 int main(void) {
 	int x;
-	printf("”š‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢");
+	printf("æ•°å­—ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„");
 	scanf("%d",&x);
 	switch (x) {
 	case 1:
-		// ˆ—1
+		// å‡¦ç†1
 		break;
 	case 2:
-		// ˆ—2
+		// å‡¦ç†2
 		break;
 	case 3:
-		// ˆ—3
+		// å‡¦ç†3
 		break;
 	default:
-		// ‚»‚êˆÈŠO‚Ìˆ—
+		// ãã‚Œä»¥å¤–ã®å‡¦ç†
 		break;
 	}
 	return 0;
