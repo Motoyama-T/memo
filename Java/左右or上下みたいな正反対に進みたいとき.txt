@@ -1,4 +1,4 @@
-¡10~10ƒ}ƒX‚Ì”Õ–Ê‚ÅÀ•W(x,y)‚Ì¶‰E‚»‚ê‚¼‚ê‚É‘Î‚·‚éˆ—‚ğ‚µ‚½‚¢‚Æ‚«‚ğ‘z’è
+â– 10Ã—10ãƒã‚¹ã®ç›¤é¢ã§åº§æ¨™(x,y)ã®å·¦å³ãã‚Œãã‚Œã«å¯¾ã™ã‚‹å‡¦ç†ã‚’ã—ãŸã„ã¨ãã‚’æƒ³å®š
 
 
 for(int plusminus = -1; plusminus < 2; plusminus+=2){
@@ -8,9 +8,9 @@ for(int plusminus = -1; plusminus < 2; plusminus+=2){
 		if(x + i * plusminus < 0 || x + i * plusminus >= 10){
 			break;
 		}
-		if(”Õ–Ê[x + i * plusminus][y].equals("*"){
+		if(ç›¤é¢[x + i * plusminus][y].equals("*"){
 			for(int j = 0; j < i + 1; j++){
-				//ˆ—
+				//å‡¦ç†
 			}
 			break;
 		}
