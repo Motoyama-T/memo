@@ -1,22 +1,22 @@
-��Java�̂��܂��Ȃ��@
+■Javaのおまじない　
 -------------------------------------------------
 public class Main {
 	public static void main(String[] args) {
-		//����
+		//処理
 	}
 }
 -------------------------------------------------
-���upublic class Main{}�v���K�v�ȗ��R
-	��ʓI�ȃv���O���~���O����ł́A�v���O�����̎��s���ǂ�����E�ǂ̂悤�Ɏn�܂邩�͑傫���ȉ��̓��ނɕ�����܂��B
-		�@�v���O���~���O����̎d�l�Ō��߂�ꂽ�֐��E�v���V�[�W���E���\�b�h����n�܂�
-		�A�v���O�����̐擪�s����Ō�̍s�܂ŁA���ԂɎ��s����Ă���
-	Java�́A�@�̃v���O���~���O����ł��B�����āAJava�ł́umain���\�b�h�v���G���g���[�|�C���g�ł��B
+■「public class Main{}」が必要な理由
+	一般的なプログラミング言語では、プログラムの実行がどこから・どのように始まるかは大きく以下の二種類に分かれます。
+		①プログラミング言語の仕様で決められた関数・プロシージャ・メソッドから始まる
+		②プログラムの先頭行から最後の行まで、順番に実行されていく
+	Javaは、①のプログラミング言語です。そして、Javaでは「mainメソッド」がエントリーポイントです。
 
-Java��main���\�b�h�́A�ȉ��̏��������ׂĖ������Ă��郁�\�b�h�ł��B
+Javaのmainメソッドは、以下の条件をすべて満たしているメソッドです。
 
-�A�N�Z�X�C���q��public�ł���
-static���\�b�h�ł���
-���\�b�h�̖߂�l��void�ł���
-���\�b�h���́gmain�h�ł���(���ׂď�����)
-���\�b�h�̈����́AString�̔z��(���邢��String�̉ϒ�����)�h�̂݁g�ł��� �������̕ϐ����͉��ł��悢
+アクセス修飾子はpublicである
+staticメソッドである
+メソッドの戻り値はvoidである
+メソッド名は“main”である(すべて小文字)
+メソッドの引数は、Stringの配列(あるいはStringの可変長引数)”のみ“である ※引数の変数名は何でもよい
 https://www.bold.ne.jp/engineer-club/java-main
