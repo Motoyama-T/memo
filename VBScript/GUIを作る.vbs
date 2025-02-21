@@ -1,6 +1,6 @@
 set w = WScript
 
-'IE�̃I�u�W�F�N�g�����A��ʂ̐ݒ�����ĕ\��
+'IEのオブジェクトを作り、画面の設定をして表示
 set ie = CreateObject("InternetExplorer.Application")
 
 ie.Width = 300
@@ -15,7 +15,7 @@ do while ie.Busy
  w.sleep 100
 loop
 
-'���[�UID�ƃp�X���[�h�̓��̓{�b�N�X�ƃ{�^����\��
+'ユーザIDとパスワードの入力ボックスとボタンを表示
 html = ""_
 +"<form>"_
 +" <input type=""hidden""name=""CLICKED""value=""false""/>"_
@@ -29,7 +29,7 @@ html = ""_
 ie.Document.Body.InnerHtml = html
 ie.Document.Title = "VBScript GUI test."
 
-'�{�^�����N���b�N�����܂ő҂�
+'ボタンがクリックされるまで待つ
 on error resume next
 
 function is_clicked(ie)
@@ -41,7 +41,7 @@ do while ie.Busy or not is_clicked(ie)
  w.sleep 100
 loop
 
-'���͂��ꂽ���[�U���ƃp�X���[�h��\��
+'入力されたユーザ名とパスワードを表示
 if Err.Number = 0 then
  userid = ie.Document.getElementsByName("USERID")(0).value
  passwd = ie.Document.getElementsByName("PASSWD")(0).value
