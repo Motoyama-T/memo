@@ -1,4 +1,4 @@
-//CŒ¾Œê‚Ì‰üs‚Íu\nv
+//Cè¨€èªã®æ”¹è¡Œã¯ã€Œ\nã€
 #include<sudio.h>
 
 int main(void) {
@@ -7,7 +7,7 @@ int main(void) {
 	printf("Hello World\n");
 	return 0;
 }
-/*«ÀsŒ‹‰Ê«
+/*â†“å®Ÿè¡Œçµæœâ†“
 Hello World
 Hello World
 
