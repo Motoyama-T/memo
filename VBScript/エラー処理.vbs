@@ -3,41 +3,41 @@ dim test
 test = "hello!"
 
 '|
-'|yOn Error Resume Nextz
-'|yErr.Clearz
-'|‚±‚±‚©‚çƒGƒ‰[‚ğ–³‹‚·‚é
-'|Err.Clear ‚Í‰Šú‰»
+'|ã€On Error Resume Nextã€‘
+'|ã€Err.Clearã€‘
+'|ã“ã“ã‹ã‚‰ã‚¨ãƒ©ãƒ¼ã‚’ç„¡è¦–ã™ã‚‹
+'|Err.Clear ã¯åˆæœŸåŒ–
 '|
 on error resume next
 err.clear
 msgbox 2/0
 
 '|
-'|yif Err.Number <> 0 thenz
-'|y `ˆ—`z
-'|y end ifz
-'|ƒGƒ‰[‚Ì—L–³‚ğ”»’è‚·‚é
-'|ƒGƒ‰[‚ª‰½‚à”­¶‚µ‚Ä‚¢‚È‚¯‚ê‚Î Err.Number ‚É‚Í0‚ª“ü‚Á‚Ä‚¢‚é
+'|ã€if Err.Number <> 0 thenã€‘
+'|ã€ ï½å‡¦ç†ï½ã€‘
+'|ã€ end ifã€‘
+'|ã‚¨ãƒ©ãƒ¼ã®æœ‰ç„¡ã‚’åˆ¤å®šã™ã‚‹
+'|ã‚¨ãƒ©ãƒ¼ãŒä½•ã‚‚ç™ºç”Ÿã—ã¦ã„ãªã‘ã‚Œã° Err.Number ã«ã¯0ãŒå…¥ã£ã¦ã„ã‚‹
 '|
 if err.number <> 0 then
- msgbox "ƒGƒ‰[‚ª”­¶‚µ‚Ü‚µ‚½"
+ msgbox "ã‚¨ãƒ©ãƒ¼ãŒç™ºç”Ÿã—ã¾ã—ãŸ"
 end if
 '|
-'|yOn Error Goto 0z
-'|ƒGƒ‰[‚ğ–³‹‚·‚é‚Ì‚Í‚±‚±‚Ü‚Å
+'|ã€On Error Goto 0ã€‘
+'|ã‚¨ãƒ©ãƒ¼ã‚’ç„¡è¦–ã™ã‚‹ã®ã¯ã“ã“ã¾ã§
 '|
 on error goto 0
 
 on error resume next
 err.clear
-cint("•¶š—ñ")
+cint("æ–‡å­—åˆ—")
 
 '|
-'|yƒGƒ‰[”Ô†FErr.Numberz
-'|yƒGƒ‰[“à—eFErr.Descriptionz
-'|ƒGƒ‰[“à—e‚ğæ“¾‚·‚é
+'|ã€ã‚¨ãƒ©ãƒ¼ç•ªå·ï¼šErr.Numberã€‘
+'|ã€ã‚¨ãƒ©ãƒ¼å†…å®¹ï¼šErr.Descriptionã€‘
+'|ã‚¨ãƒ©ãƒ¼å†…å®¹ã‚’å–å¾—ã™ã‚‹
 '|
 if err.number <> 0 then
- msgbox "ƒGƒ‰[”Ô†:" &err.number &chr(10) &"ƒGƒ‰[“à—e:" &err.description
+ msgbox "ã‚¨ãƒ©ãƒ¼ç•ªå·:" &err.number &chr(10) &"ã‚¨ãƒ©ãƒ¼å†…å®¹:" &err.description
 end if
 on error goto 0
