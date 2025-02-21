@@ -1,0 +1,16 @@
+//C言語の改行は「\n」
+#include<sudio.h>
+
+int main(void) {
+	printf("Hello World\nHello World");
+	printf("\n");
+	printf("Hello World\n");
+	return 0;
+}
+/*↓実行結果↓
+Hello World
+Hello World
+
+Hello World
+
+*/

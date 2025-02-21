@@ -1,0 +1,22 @@
+Å°whileï∂
+#include<stdio.h>
+int main(void) {
+	int i = 1;
+	while (i <= 3) {
+		// åJÇËï‘ÇµÇΩÇ¢èàóù
+		i = i + 1;
+		// i += 1;	Å™ÇÃè»ó™å`
+		// i++;	Å™ÇÃÇ≥ÇÁÇ…è»ó™å`
+	}
+	return 0;
+}
+
+Å°forï∂
+#include<stdio.h>
+int main(void) {
+	int i;
+	for (i = 1; i <= 3; i++) {
+		// åJÇËï‘ÇµÇΩÇ¢èàóù
+	}
+	return 0;
+}
