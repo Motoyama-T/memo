@@ -1,5 +1,5 @@
 #include<sudio.h>
-//u#v‚ª‚Â‚¢‚½‹Lq‚ÍƒvƒŠƒvƒƒZƒbƒT(ŠO•”ƒtƒ@ƒCƒ‹‚ðŽæ‚èž‚Þ–½—ß)B¡‰ñ‚Í•W€“üo—Í(printfŠÖ”)‹@”\‚ðŽæ‚èž‚ñ‚Å‚éB
+//ã€Œ#ã€ãŒã¤ã„ãŸè¨˜è¿°ã¯ãƒ—ãƒªãƒ—ãƒ­ã‚»ãƒƒã‚µ(å¤–éƒ¨ãƒ•ã‚¡ã‚¤ãƒ«ã‚’å–ã‚Šè¾¼ã‚€å‘½ä»¤)ã€‚ä»Šå›žã¯æ¨™æº–å…¥å‡ºåŠ›(printfé–¢æ•°)æ©Ÿèƒ½ã‚’å–ã‚Šè¾¼ã‚“ã§ã‚‹ã€‚
 
 int main(void) {
 	printf("Hello World");
