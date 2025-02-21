@@ -4,7 +4,8 @@ UnionでまとめたすべてのRangeの値をひとつの配列に代入しよ�
 結論から書くと、Range.Areasプロパティを使って指定をすることが出来る。  
 ・Range("B2:D4") <===赤で囲まれた範囲  
 ・Range("F3:G4") <===青で囲まれた範囲  
-![image](https://github.com/user-attachments/assets/5c88a5f6-830b-4d32-8157-78f14af95a91)  
+![image](https://github.com/user-attachments/assets/248996db-b642-486f-ba85-5459d25b84a7)  
+
   
 【失敗したコード】  
 ```
