@@ -1,9 +1,9 @@
-''‰Šúİ’è'''''''''''''''''''''''''''''''''''''''''''''''''''
+''åˆæœŸè¨­å®š'''''''''''''''''''''''''''''''''''''''''''''''''''
 option explicit
 dim test, fs, path, chat, draw
 on error resume next
 err.clear
-path = "D:\game\©ìƒvƒƒOƒ‰ƒ€\vbscript\test\chat.txt"
+path = "D:\game\è‡ªä½œãƒ—ãƒ­ã‚°ãƒ©ãƒ \vbscript\test\chat.txt"
 set fs = createObject("scripting.fileSystemObject")
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 wscript.sleep 1000
