@@ -1,0 +1,4 @@
+演算子	使用例	意味
+&&	A && B	論理積、AとBが共にtrueならtrue
+||	A || B	論理和、AかBの少なくとも1つがtrueならtrue
+!	!A	否定、Aがtrueならfalse、Aがfalseならtrue

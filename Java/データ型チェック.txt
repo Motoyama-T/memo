@@ -1,0 +1,11 @@
+Java で型の確認をするには「instanceof」演算子を使います。
+
+変数名 instanceof クラス名
+変数名 instanceof インターフェース名
+instanceof の右辺にクラス名、またはインターフェース名が指定できます。instanceof の戻り値は booleanで、true なら変数は指定したクラスかインターフェース、ということになります。
+
+public static void integerSample() {
+    Integer i = 100;
+    boolean result = i instanceof Integer;
+    System.out.println(result);
+}
