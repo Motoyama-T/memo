@@ -2,34 +2,34 @@ Option Explicit
 Main
 
 '|
-'|ƒƒCƒ“ŠÖ”
+'|ãƒ¡ã‚¤ãƒ³é–¢æ•°
 '|
 Sub Main
  msgbox Test
 End Sub
 
 '|
-'|ƒtƒHƒ‹ƒ_“à‚Ìƒtƒ@ƒCƒ‹ˆê——‚ğæ“¾‚·‚éŠÖ”
+'|ãƒ•ã‚©ãƒ«ãƒ€å†…ã®ãƒ•ã‚¡ã‚¤ãƒ«ä¸€è¦§ã‚’å–å¾—ã™ã‚‹é–¢æ•°
 '|
 Function TEST
 Dim A,B,x
 '|
-'|‡@FileSystemObject‚ğ¶¬
-'|‡AFolderƒIƒuƒWƒFƒNƒg‚ğ¶¬
-'|¦‚Ü‚Æ‚ß‚Ä‘‚­‚Æ•Ï”‚ğ1ŒÂÈ—ª‚Å‚«‚éB
-'|yB = CreateObject("scripting.fileSystemObject").GetFolder("ƒpƒX")z
+'|â‘ FileSystemObjectã‚’ç”Ÿæˆ
+'|â‘¡Folderã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã‚’ç”Ÿæˆ
+'|â€»ã¾ã¨ã‚ã¦æ›¸ãã¨å¤‰æ•°ã‚’1å€‹çœç•¥ã§ãã‚‹ã€‚
+'|ã€B = CreateObject("scripting.fileSystemObject").GetFolder("ãƒ‘ã‚¹")ã€‘
 '|
 Set A = CreateObject("Scripting.FileSystemObject")
 Set B = A.GetFolder("D:\MyProgram\vbscript")
 '|
-'|FilesƒvƒƒpƒeƒB‚ğæ“¾‚µA
-'|Each•¶‚ÆNameƒvƒƒpƒeƒB‚Åƒtƒ@ƒCƒ‹–¼‚¾‚¯‚ğ‚Ğ‚Æ‚Ü‚Æ‚ßB
+'|Filesãƒ—ãƒ­ãƒ‘ãƒ†ã‚£ã‚’å–å¾—ã—ã€
+'|Eachæ–‡ã¨Nameãƒ—ãƒ­ãƒ‘ãƒ†ã‚£ã§ãƒ•ã‚¡ã‚¤ãƒ«åã ã‘ã‚’ã²ã¨ã¾ã¨ã‚ã€‚
 '|
 For Each x in B.Files
  TEST = TEST &vbCrLf &x.Name
 Next
 '|
-'|g‚¢I‚í‚Á‚½Set‚ÍÁ‚·
+'|ä½¿ã„çµ‚ã‚ã£ãŸSetã¯æ¶ˆã™
 '|
 Set B = Nothing
 Set A = Nothing
