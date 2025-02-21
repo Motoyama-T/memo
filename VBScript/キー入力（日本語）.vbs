@@ -3,9 +3,9 @@ dim x
 set x = WScript.CreateObject("WScript.Shell")
 
 x.Run "chrome.exe --incognito"
-x.Run "cmd.exe /c echo “ú–{Œê| clip"
+x.Run "cmd.exe /c echo æ—¥æœ¬èª| clip"
 
-x.AppActivate "V‚µ‚¢ƒ^ƒu"
+x.AppActivate "æ–°ã—ã„ã‚¿ãƒ–"
 WScript.Sleep 1000
 x.SendKeys "^V"
 x.SendKeys "{ENTER}"
