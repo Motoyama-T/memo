@@ -33,7 +33,8 @@ curl -X POST -d "name=John&age=30" https://example.com/api
 # どんな動作するのか、ちょこっと試したいとき  
 このサイト（https://httpbin.org/ ）がおすすめ。  
 HTTPリクエストをすると、いろいろなレスポンスを返してくれるWebサイト。リクエストの書き方が正しいか、きちんとHTTP通信を行えるものなのかを確認できる。  
-![image](https://github.com/user-attachments/assets/c9817b0d-a748-461f-972b-425184047b06)  
+![image](https://github.com/user-attachments/assets/fb2ffa2b-40e0-40c3-af9f-d0516f572989)  
+  
 # curlのオプションについて  
   
 ■メソッド変更  
