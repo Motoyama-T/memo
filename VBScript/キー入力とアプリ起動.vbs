@@ -6,7 +6,7 @@ x.Run "calc.exe"
 x.Run "notepad.exe"
 WScript.Sleep 1000
 
-x.AppActivate "ìdëÏ"
+x.AppActivate "ÈõªÂçì"
 x.SendKeys "1"
 x.SendKeys "{+}"
 x.SendKeys "1"
@@ -14,7 +14,7 @@ x.SendKeys "="
 x.SendKeys "^c"
 WScript.Sleep 1000
 
-x.AppActivate "ÉÅÉÇí†"
+x.AppActivate "„É°„É¢Â∏≥"
 x.SendKeys "^v"
 
 set x = Nothing
