@@ -1,12 +1,12 @@
 option explicit
 dim x
 '|
-'|¦CreateObject‚Í2í—Ş‚ ‚éBˆø”‚ª”÷–­‚Éˆá‚¤‚ç‚µ‚¢B
-'|‡@CreateObjectŠÖ”cVBS‚É“à‘ ‚³‚ê‚Ä‚¢‚éB
-'|ySet A = CreateObject("ˆø”")z
-'|‡ACreateObjectƒƒ\ƒbƒhcWSH‚Ì‹@”\‚ğØ‚è‚Ä‚¢‚éB
-'|ySet A = WScript.CreateObject("ˆø”")z
-'|VBS‚Å‚Í‚Ç‚Á‚¿‚Ì‹Lq‚Å‚à‹N“®‚·‚é‚ªAƒGƒNƒZƒ‹VBA‚Å‚Í‡@‚Ì‚İ‹N“®‚µ‚½B
+'|â€»CreateObjectã¯2ç¨®é¡ã‚ã‚‹ã€‚å¼•æ•°ãŒå¾®å¦™ã«é•ã†ã‚‰ã—ã„ã€‚
+'|â‘ CreateObjecté–¢æ•°â€¦VBSã«å†…è”µã•ã‚Œã¦ã„ã‚‹ã€‚
+'|ã€Set A = CreateObject("å¼•æ•°")ã€‘
+'|â‘¡CreateObjectãƒ¡ã‚½ãƒƒãƒ‰â€¦WSHã®æ©Ÿèƒ½ã‚’å€Ÿã‚Šã¦ã„ã‚‹ã€‚
+'|ã€Set A = WScript.CreateObject("å¼•æ•°")ã€‘
+'|VBSã§ã¯ã©ã£ã¡ã®è¨˜è¿°ã§ã‚‚èµ·å‹•ã™ã‚‹ãŒã€ã‚¨ã‚¯ã‚»ãƒ«VBAã§ã¯â‘ ã®ã¿èµ·å‹•ã—ãŸã€‚
 '|
 set x = WScript.CreateObject("WScript.Shell")
 
