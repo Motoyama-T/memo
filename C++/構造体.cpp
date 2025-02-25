@@ -12,7 +12,7 @@ int main(void) {
 
 	printf("%d", A.x);		// 実行結果→22
 	printf("%.1lf cm", A.y);	// 実行結果→171.5 cm
-	printf(%c, A.z);			// 実行結果→M
+	printf(%c, A.z);		// 実行結果→M
 
 	return 0;
 }
