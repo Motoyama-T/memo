@@ -1,10 +1,10 @@
-ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+/*ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
 switch文を使って break を書き忘れる…意外とあるあるだと思います。
 そんなswitch文を改善した、switch式 がJava 14から追加されました。
 
 switch式 を使うことで、break文の書き忘れという単純なミスから解放されます。
-ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
-■switch文
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー*/
+//■switch文
 switch (value) {
 	case 1:
 		System.out.println("いち");
@@ -18,7 +18,7 @@ switch (value) {
 	default:
 		System.out.println("それ以外");
 }
-■switch式
+//■switch式
 switch (value) {
 	case 1 -> {
 		System.out.println("いち");
