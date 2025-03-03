@@ -1,8 +1,8 @@
 #include<stdio.h>
 void 関数名(void) {
-	処理;
-	………;
-	………;
+	//処理;
+	//………;
+	//………;
 	return;
 }
 int main(void) {
