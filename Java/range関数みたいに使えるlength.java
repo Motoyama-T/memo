@@ -1,4 +1,3 @@
-```java
 String[][] A = {{"XXXX","YYYY","ZZZZ"},{"AAAA","BBBB","CCCC"}};
 
 for(int i = 0; i < A.length; i ++){
@@ -6,11 +5,11 @@ for(int i = 0; i < A.length; i ++){
 		System.out.println(A[i][j]);
 	}
 }
-```
->#出力結果  
->XXXX  
->YYYY  
->ZZZZ  
->AAAA  
->BBBB  
->CCCC  
+/*----出力----------------------------
+XXXX
+YYYY
+ZZZZ
+AAAA
+BBBB
+CCCC
+------------------------------------*/
