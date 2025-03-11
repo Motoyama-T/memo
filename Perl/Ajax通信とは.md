@@ -26,3 +26,7 @@
   loadData();
 </script>
 ```
+  
+**`var xhr = new XMLHttpRequest();`**  
+　XMLHttpRequestオブジェクトを作成します。このオブジェクトは、サーバーとの非同期通信を行うために使用されます。  
+**`xhr.open('GET', '/data', true);`**  
