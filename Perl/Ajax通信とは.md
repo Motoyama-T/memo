@@ -29,4 +29,33 @@
   
 **`var xhr = new XMLHttpRequest();`**  
 　XMLHttpRequestオブジェクトを作成します。このオブジェクトは、サーバーとの非同期通信を行うために使用されます。  
+  
 **`xhr.open('GET', '/data', true);`**  
+　openメソッドは、HTTPリクエストを初期化します。  
+　・`'GET'`: HTTPメソッドを指定します。ここではデータを取得するためにGETメソッドを使用しています。  
+　・`'/data'`: リクエストするURLを指定します。  
+　・`true`: 非同期通信を行うためのフラグです。trueを指定すると非同期通信が行われます。  
+  
+**`xhr.onreadystatechange = function() { ... };`**  
+　onreadystatechangeプロパティに関数を設定します。この関数は、readyStateが変化するたびに呼び出されます。  
+  
+**`if (xhr.readyState === 4 && xhr.status === 200) { ... }`**  
+　この条件文は、リクエストが完了し、サーバーから正常なレスポンスが返されたことを確認します。  
+　・`xhr.readyState === 4`: リクエストが完了した状態を示します。  
+　・`xhr.status === 200`: HTTPステータスコードが200（成功）であることを確認します。  
+  
+**`var data = JSON.parse(xhr.responseText);`**  
+　サーバーから返されたJSON形式のレスポンスをJavaScriptオブジェクトに変換します。  
+　・`xhr.responseText`: サーバーから返されたレスポンスのテキスト。  
+　・`JSON.parse()`: JSON形式の文字列をJavaScriptオブジェクトに変換するメソッド。  
+  
+**`document.getElementById('content').innerHTML = ...;`**
+　取得したデータを使って、HTMLの内容を更新します。  
+　・`document.getElementById('content')`: HTML要素のIDがcontentである要素を取得します。  
+　・`innerHTML`: 要素の内部HTMLを設定します。  
+  
+**`xhr.send();`**  
+　リクエストを送信します。  
+  
+**`loadData();`**  
+　loadData関数を呼び出して、Ajax通信を開始します。  
